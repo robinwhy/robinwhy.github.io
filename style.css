@@ -154,7 +154,7 @@
     width: 100%;
     height: 100vh;
     /* background-color: #000; */
-    background-image: "imgs/Irvine_beach.jpeg";
+    background-image: url("imgs/Irvine_beach.jpeg");
   }
   /* Projects section */
   
@@ -292,32 +292,6 @@
     transition: transform 0.3s ease-out;
   }
   
-  .contact-details:hover {
-    transform: translateY(8px);
-  }
+
   
-  /* Footer */
-  
-  footer {
-    font-weight: 300;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem;
-    background: var(--main-gray);
-    border-top: 4px solid var(--main-red);
-  }
-  
-  footer > p {
-    margin: 2rem;
-  }
-  
-  footer i {
-    vertical-align: middle;
-  }
-  
-  @media (max-width: 28.75em) {
-    footer {
-      flex-direction: column;
-      text-align: center;
-    }
-  }
+ 
